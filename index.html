@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Binary and Decimal Converter</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-toggle" onclick="toggleNavbar()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="info.html">Info</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+
+  <h1>Binary and Decimal Converter</h1>
+
+  <!-- Binary to Decimal Converter -->
+  <h2>Binary to Decimal Converter</h2>
+  <div class="container">
+    <input type="text" id="binary-input" placeholder="Enter binary number">
+    <button id="binary-convert-btn">Convert</button>
+    <p id="decimal-output">Decimal: </p>
+  </div>
+
+  <!-- Decimal to Binary Converter -->
+  <h2>Decimal to Binary Converter</h2>
+  <div class="container">
+    <input type="text" id="decimal-input" placeholder="Enter decimal number">
+    <button id="decimal-convert-btn">Convert</button>
+    <p id="binary-output">Binary: </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
